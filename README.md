@@ -12,3 +12,7 @@ The scripts can generate 3D BBox tracking / bev / bev trace.
    ```
 
 4. The computation of the pose loss is also included in the `visualize.py - visualize_sets()` section.
+
+<p align="center">
+    <img src="imgs/trace.jpg"/>
+</p>
