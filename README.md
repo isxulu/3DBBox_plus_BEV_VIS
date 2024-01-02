@@ -1,6 +1,9 @@
 # 3DBBox_plus_BEV_VIS
 The scripts can generate 3D BBox tracking / bev / bev trace.
 ---
+<p align="center">
+    <img src="imgs/bev_3dbbox.jpg"/>
+</p>
 1. This script can generate 3D BBox tracking, BEV (Bird's Eye View), and BEV trace. The BEV representations are in the ego-vehicle's camera space.
 
 2. The script follows the KITTI standard. However, for KITTI-360, the rotation matrix C2W is not normalized and requires additional processing. To handle this, an additional `--kitti360` parameter should be added to the command.
